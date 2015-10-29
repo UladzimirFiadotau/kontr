@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _jokes = [[NSMutableArray alloc] init];
+    [_jokes addObject:@"Шутка1"];
+    [_jokes addObject:@"Шутка2"];
+    [_jokes addObject:@"Шутка3"];
+    [_jokes addObject:@"Шутка4"];
+    [_jokes addObject:@"Шутка5"];
     return YES;
 }
 
